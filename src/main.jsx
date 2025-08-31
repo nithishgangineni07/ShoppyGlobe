@@ -15,7 +15,7 @@ const ProductList= lazy(()=>import('./components/ProductList.jsx'));
 const Cart= lazy(()=>import('./components/Cart.jsx'));
 const Checkout= lazy(()=>import('./components/Checkout.jsx'))
 const NotFound= lazy(()=>import('./components/NotFound.jsx'));
-const ProductDetails = lazy(() => import("./Components/ProductDetails"))
+const ProductDetails = lazy(() => import("./components/ProductDetails"))
 
 
 //reusesable  loader
